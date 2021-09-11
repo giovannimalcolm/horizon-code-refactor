@@ -1,13 +1,16 @@
-* {
+/*Universal Selector*/
+ * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Body Formatting*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Headers*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +27,7 @@ body {
     color: #d9dcd6;
 }
 
+/*Header Navigation Links*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,15 +45,17 @@ body {
     margin-left: 25px;
 }
 
+/*Link formatting*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Body Paragraph Formatting*/
 p {
     font-size: 16px;
 }
 
+/*Main photo section formatting*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +65,7 @@ p {
     background-position: center;
 }
 
+/*Section formatting*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -125,7 +132,7 @@ p {
     font-size: 36px;
 }
 
-
+/*Footer formating*/
 .footer {
     padding: 30px;
     clear: both;
